@@ -1,0 +1,20 @@
+{
+  "name": "lmuzinic/create-source",
+  "description": "Create new posts and videos",
+  "keywords": ["sculpin", "posts", "vimeo"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luka Muzinic",
+      "homepage": "http://luka.muzinic.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-0": { "Lmuzinic\\Sculpin\\Bundle\\CreateSourceBundle": "" }
+  },
+  "target-dir": "Lmuzinic/Sculpin/Bundle/CreateSourceBundle",
+  "minimum-stability": "beta"
+}
